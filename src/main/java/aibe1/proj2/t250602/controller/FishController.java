@@ -19,4 +19,5 @@ public class FishController {
     }
 
     public record Fish(String name) {}
+
 }
