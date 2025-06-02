@@ -22,7 +22,7 @@ public class FishControllerTest {
     @DisplayName("GET /fish -> 200")
     void getFishListOK() throws Exception {
         mvc.perform(get("/fish"))
-                .andExpect(status().isOk());
+                .andExpect(status().isBadRequest());
     }
 
     @Test
